@@ -2,7 +2,7 @@ package com.bigstep.mylibrary
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.bigstep.playLib.R
+import com.bigstep.mylibrary.R
 
 class TestActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

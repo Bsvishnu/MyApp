@@ -6,6 +6,8 @@ import android.os.Bundle
 import android.widget.Button
 import com.bigstep.mylibrary.TestActivity
 
+//import com.bigstep.mylibrary.TestActivity
+
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
