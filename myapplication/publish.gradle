@@ -19,7 +19,7 @@ publishing {
             groupId LIB_GROUP_ID
             artifactId LIB_ARTIFACT_ID
             version LIB_VERSION
-            artifact("$buildDir/outputs/aar/module-debug.aar")
+//            artifact("$buildDir/outputs/aar/module-debug.aar")
             artifact(sourceJar)
 pom.withXml {
                 def dependenciesNode = asNode().appendNode('dependencies')
@@ -37,7 +37,7 @@ pom.withXml {
             groupId LIB_GROUP_ID
             artifactId LIB_ARTIFACT_ID
             version LIB_VERSION
-            artifact("$buildDir/outputs/aar/module-debug.aar")
+//            artifact("$buildDir/outputs/aar/module-debug.aar")
             artifact(sourceJar)
             pom.withXml {
                 def dependenciesNode = asNode().appendNode('dependencies')
